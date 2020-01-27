@@ -1,4 +1,4 @@
-# WhatsApp-Analyzer
+# Whatsapp_Analytics
 Analyze Chatsapp chat
 
 The script reads an exported whatsapp chat and then extracts the data. You may need to install some packages before run it
@@ -13,9 +13,9 @@ pip install pandas emoji seaborn matplotlib numpy wordcloud
 ```
 ### Usage
 ```
-$ git clone https://github.com/PetengDedet/WhatsApp-Analyzer.git
+$ git clone https://github.com/armelsoubeiga/Whatsapp_Analytics.git
 
-$ cd WhatsApp-Analyzer
+$ cd Whatsapp_Analytics
 $ python whatsapp_analyzer.py
 ```
 
@@ -24,20 +24,14 @@ $ python whatsapp_analyzer.py
 - Currently support below chat pattern:
  ```python
     "14/10/18, 11:16 - Contact Name: this is a message"
-    "2/30/18, 2:07 AM - Contact Name:  Test👌"
-    "[30/12/18 4.59.25 PM] Nama User: 🙏test"
-    "[06/07/17 13.23.30] ‪+62 123-456-78910‬: image omitted"
+    "2/30/18, 2:07 AM - Contact Name:  Test??"
+    "[30/12/18 4.59.25 PM] Nama User: ??test"
+    "[06/07/17 13.23.30] ?+62 123-456-78910?: image omitted"
   ```
 - Some date format may not supported
 - Tested in python 2.7+ on MacOS
 - When using virtualenv there is error backend stuff
   I don't know how to fix it yet. Help please :)
-- If chat file located outside script directory, please fill it with fullpath not relativepath
-- There is common words file:
-  - id_cw.py for Bahasa Indonesia
-  - de_cw.py for German thanks [@yafp](https://github.com/yafp)
-  - en_cw.py for English. Thanks @Deekayen [gist](https://gist.github.com/deekayen/4148741 "gist")
-  If you want to add any other language, you can make it one
 
 ### Getting chat source
 #### Android:
