@@ -63,5 +63,5 @@ Description included inside
    ![](https://i.imgur.com/RaGDrEp.png)
 
 #### Raw
-   ![](https://i.imgur.com/sCIEQas.png)
+ 
   
