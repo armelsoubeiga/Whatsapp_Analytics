@@ -57,7 +57,7 @@ Description included inside
  - Top Mentioned Website
    ![](https://i.imgur.com/9Y8hTwE.png)
  - Wordcloud
-   ![](https://i.imgur.com/RaGDrEp.png)
+
 
 #### Raw
  
