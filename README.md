@@ -3,8 +3,6 @@ Analyze Chatsapp chat
 
 The script reads an exported whatsapp chat and then extracts the data. You may need to install some packages before run it
 
-### Preview
-![](https://i.imgur.com/8kqBa4I.png)
 
 ### Requirements
 - Python 2.7+ or Python 3
